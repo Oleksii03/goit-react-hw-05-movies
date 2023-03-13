@@ -3,10 +3,10 @@ import styled from 'styled-components';
 
 export const NavItem = styled(NavLink)`
   display: flex;
+  margin-right: 10px;
   align-items: center;
-  gap: 16px;
-  padding: 8px;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 5px;
   text-decoration: none;
   color: #000;
   transition: color 250ms linear, background-color 250ms linear;
